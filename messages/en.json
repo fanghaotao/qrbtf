@@ -28,6 +28,29 @@
       "url": "URL",
       "scan": "Scan"
     },
+    "input": {
+      "url": "URL",
+      "text": "Text",
+      "wifi": "WiFi",
+      "vcard": "vCard",
+      "email": "Email",
+      "text_placeholder": "Enter any text here",
+      "wifi_ssid": "SSID",
+      "wifi_password": "Password",
+      "wifi_encryption": "Encryption",
+      "wifi_no_password": "No Password",
+      "vcard_first_name": "First Name",
+      "vcard_first_name_placeholder": "John",
+      "vcard_last_name": "Last Name",
+      "vcard_last_name_placeholder": "Appleseed",
+      "vcard_phone": "Phone",
+      "vcard_email": "Email",
+      "email_to": "To",
+      "email_subject": "Subject",
+      "email_subject_placeholder": "Hello",
+      "email_body": "Body",
+      "email_body_placeholder": "Say something..."
+    },
     "style": {
       "title": "Style",
       "subtitle": "Swipe left or right to view more"

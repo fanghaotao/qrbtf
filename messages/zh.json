@@ -28,6 +28,29 @@
       "url": "URL 链接",
       "scan": "扫描"
     },
+    "input": {
+      "url": "网址",
+      "text": "文本",
+      "wifi": "WiFi",
+      "vcard": "名片",
+      "email": "邮件",
+      "text_placeholder": "在此输入任何文本",
+      "wifi_ssid": "网络名称",
+      "wifi_password": "密码",
+      "wifi_encryption": "加密方式",
+      "wifi_no_password": "无密码",
+      "vcard_first_name": "名",
+      "vcard_first_name_placeholder": "张",
+      "vcard_last_name": "姓",
+      "vcard_last_name_placeholder": "三",
+      "vcard_phone": "电话",
+      "vcard_email": "电子邮件",
+      "email_to": "收件人",
+      "email_subject": "主题",
+      "email_subject_placeholder": "你好",
+      "email_body": "正文",
+      "email_body_placeholder": "说点什么..."
+    },
     "style": {
       "title": "风格",
       "subtitle": "左右滑动查看更多"

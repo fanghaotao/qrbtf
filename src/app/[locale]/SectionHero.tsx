@@ -20,7 +20,7 @@ import { QrbtfLogo } from "@/components/Logos";
 import { useState } from "react";
 import { urlAtom } from "@/lib/states";
 import { useAtom } from "jotai";
-import { UrlInput } from "@/components/hero/UrlInput";
+import { DataTypeSelector } from "@/components/hero/DataTypeSelector";
 import { HeroLogo } from "@/components/Header";
 import { TrackLink } from "@/components/TrackComponents";
 
@@ -77,17 +77,10 @@ export function SectionHero() {
           <SplitView className="gap-y-0">
             <SplitLeft>
               <div className="mt-6 w-full">
-                <Label className="flex justify-between text-sm font-medium mb-1.5">
-                  {t("url")}
-                  <div className="flex items-center gap-3">
-                    {/*<div className="text-sm">*/}
-                    {/*  10*/}
-                    {/*  <span className="opacity-50">/255</span>*/}
-                    {/*</div>*/}
-                    <ScanButton name={t("scan")} />
-                  </div>
-                </Label>
-                <UrlInput />
+                <div className="flex justify-end h-5 mb-1.5">
+                  <ScanButton name={t("scan")} />
+                </div>
+                <DataTypeSelector />
               </div>
             </SplitLeft>
             <SplitRight />
